@@ -1,0 +1,41 @@
+<div class="card-body col-lg-12">
+    <div class="row" style="margin-top:10px;border-color:black;border-radius:15px;">
+        <div class="col-lg-3">
+            <!--Property Binding-->
+            <img style="width: 210px;height:200px;" [src]="product.img">
+        </div>
+        <!-- <div class="col-lg-9" style="margin-top:10px;border-style:groove;border-radius:15px; "> -->
+
+
+            <div class="card w-50" style="margin-left: 100px;margin-top:-10px;" >
+                <div class="card-body" >
+                  <h5 class="card-title">{{product.pname | uppercase}}</h5>
+                  
+                  <a  class="btn btn-primary" (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"> Show more</a>
+
+                  <p class="card-text" [hidden]="pd"><b><hr>Description:</b> {{product.pdescription}} 
+                    <app-count></app-count>
+                   </p>
+                   
+                   <p class="card-text" [hidden]="pd">
+                    <b><hr>{{product.price | currency:'INR'}}</b>
+                   </p>
+                </div>
+
+
+
+            <!--Interpolation Binding-->
+            <!-- <div>
+                Product: {{product.pname | uppercase}}
+                <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()" ></span>
+            </div>
+            <hr>
+            <div [hidden]="pd">
+                Description: {{product.pdescription}}
+                <br>
+                Price: {{product.price | currency:'INR'}}
+                <br> -->
+                <!-- <app-counter></app-counter> -->
+            <!-- </div> -->
+        </div>
+    <!-- </div> -->

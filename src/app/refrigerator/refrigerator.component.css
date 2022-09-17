@@ -1,0 +1,25 @@
+img{
+    height:170px;
+    width:170px;
+    margin-left:0px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+.prodimg{
+    height:300px;
+    width:300px;
+    margin-left:40px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+
+}
+.prodgif{
+    height:300px;
+    width:380px;
+    margin-left:-15px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}

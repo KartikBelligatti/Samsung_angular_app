@@ -1,0 +1,58 @@
+[
+    {
+        "pid":1,
+        "pname":"10.0 kg Ecobubble™",
+        "pdescription":"10.0 kg Ecobubble™ Top Load Washing Machine with in-built Heater, WA10BG4686BR",
+        "price":30750,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/in/wa10bg4686brtl/gallery/in-wa4000b-435227-wa10bg4686brtl-thumb-533661235?$160_160_PNG$",
+        "i":"https://i.pinimg.com/originals/48/99/86/489986c08f444b20cdd790ecb4ff8fc0.jpg",
+        "gif":"https://images.samsung.com/is/content/samsung/in-feature-french-door-rf28n9780sgtl-181724003.gif"
+    },
+    {
+        "pid":2,
+        "pname":"Storm Pulsator 8.5 Kg",
+        "pdescription":"WT85B4200GD Semi Automatic with Hexa Storm Pulsator 8.5 Kg ",
+        "price":15400,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/in/wt85b4200gd-tl/gallery/in-wt4000bm-435124-wt85b4200gd-tl-thumb-533646268?$160_160_PNG$",
+        "i":"https://www.hitechcentury.com/wp-content/uploads/2020/06/image001.png",
+        "gif":"https://images.samsung.com/is/content/samsung/sg-feature-family-hub-rf56n9740sg-107289046"
+    },
+    {
+        "pid":3,
+        "pname":"7.0 kg Ecobubble™",
+        "pdescription":"7.0 kg Ecobubble™ Top Load Washing Machine, WA70BG4441BG",
+        "price":18000,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/in/wa70bg4441bgtl/gallery/in-wa4000b-433542-wa70bg4441bgtl-thumb-533454755?$160_160_PNG$",
+        "i":"https://img.global.news.samsung.com/in/wp-content/uploads/2018/07/3.jpg",
+        "gif":"https://149367133.v2.pressablecdn.com/wp-content/uploads/2017/02/GadgetMatch-Samsung-FamilyHub2-4-2017-02-21.gif"
+    },
+    {
+        "pid":4,
+        "pname":"Inverter Motor 7.0Kg",
+        "pdescription":"WA70T4262GS Top Load with Inverter Motor 7.0Kg",
+        "price":19900,
+        "img":"https://images.samsung.com/is/image/samsung/in-top-loading-wa70t4262gstl-wa70t4262gs-tl--thumb-332461420?$160_160_PNG$",
+        "i":"https://i.pinimg.com/736x/76/62/b0/7662b0cd326d83b6574dba8a07a0d5f4.jpg",
+        "gif":"https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/MayART22/Applications-Header-Banner_70x800_DES.gif"
+    },
+    {
+        "pid":5,
+        "pname":"6.0 kg Front Load Plus™",
+        "pdescription":"6.0 kg Front Load Washing Machine with Diamond Drum, WW60R20GLMA",
+        "price":24890,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/in/ww60r20glma-tl/gallery/in-front-loading-ww60r20glmatl-ww60r20glma-tl-thumb-444392957?$160_160_PNG$",
+        "i":"https://img.global.news.samsung.com/in/wp-content/uploads/2020/10/big-bilion.jpg",
+        "gif":"https://img.us.news.samsung.com/us/wp-content/uploads/2021/01/12143831/Bespoke-Gif-2.gif"
+    },
+    {
+        "pid":6,
+        "pname":"Horizontal Curve Design",
+        "pdescription":"WA65A4002VS Top Load with Center Jet 6.5Kg",
+        "price":35000,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/in/wa65a4002vs-tl/gallery/in-top-loading-wa65a4002gstl-350585-wa65a4002vs-tl-thumb-388106553?$160_160_PNG$",
+        "i":"https://i.pinimg.com/originals/48/99/86/489986c08f444b20cdd790ecb4ff8fc0.jpg",
+        "gif":"https://img.global.news.samsung.com/my/wp-content/uploads/2019/01/family-hub-2019_main_7.gif"
+       
+    }
+
+]

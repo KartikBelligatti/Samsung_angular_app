@@ -1,0 +1,81 @@
+
+
+
+  <img style="width:1520px;height:400px;margin-left: 8px;" src="" class="img-fluid" alt="...">
+<div class="carousel-item active">
+    <img src="https://images.samsung.com/is/image/samsung/assets/in/12313_PR_Soundbar_Newsroom_1440X344.jpg?imwidth=2560" class="d-block w-100" alt="...">
+    <div class="carousel-caption d-none d-md-block">
+      <h5 style="margin-left:650px ;margin-top: -280px; color:black; font-size: 40px;"><b>Powerful. Wireless. Epic
+        Q-Series Soundbar</b></h5>
+      
+    </div>
+  </div>
+
+  <br><br><br><br><br>
+
+
+  <div *ngFor="let p of ProductDetails" [ngSwitch]="p.Status" style="margin-top: 300px;"  >
+    
+        <div class="row" style="float: left; ">
+        <div class="col col-3 col-sm-6 col-md-4" *ngSwitchCase="'In Stock'" style="padding:120px;padding-top: 10px;">
+            <div class="card" style="width: 18rem;">
+              <img class="card_img" style="height: 260px; width: 300px;" [src]="p.image" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{p.pname}}</h5>
+                <p class="card-text">{{p.pdescription}}</p>
+                <div class="alert alert-success" role="alert">
+                    In Stock!
+                  </div>
+                <!-- Button trigger modal -->
+                <button style="margin-left:10px;" type="button" class="btn btn-primary" >
+                  Buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="float: left;">
+            <div class="col col-3 col-sm-6 col-md-4" *ngSwitchCase="'Out of Stock'" style="padding:120px;padding-top: 10px;">
+                <div class="card" style="width: 18rem;" >
+                  <img class="card_img" style="height: 260px; width: 300px;" [src]="p.image" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{p.pname}}</h5>
+                    <p class="card-text">{{p.pdescription}}</p>
+                    <div class="alert alert-danger" role="alert" >
+                        Out of Stock!
+                      </div>
+                    <!-- Button trigger modal -->
+                   <!-- Button trigger modal -->
+<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Notify Me
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Successfull.!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          You will be notified, when product is in stock, Press OK.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+ 
+
+   
+
+   

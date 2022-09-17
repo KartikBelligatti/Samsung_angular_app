@@ -1,0 +1,58 @@
+[
+    {
+        "pid":1,
+        "pname":"324L Twin Cooling Plus™",
+        "pdescription":"324L Twin Cooling Plus™ Double Door Refrigerator RT34T4513S8",
+        "price":36750,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/in/rt34t4513s8-hl/gallery/in-top-mount-freezer-rt34t4513s8hl-rt34t4513s8-hl-thumb-486033233?$160_160_PNG$",
+        "i":"https://i.pinimg.com/originals/48/99/86/489986c08f444b20cdd790ecb4ff8fc0.jpg",
+        "gif":"https://images.samsung.com/is/content/samsung/in-feature-french-door-rf28n9780sgtl-181724003.gif"
+    },
+    {
+        "pid":2,
+        "pname":"198L Digi-Touch Cool™",
+        "pdescription":"198L Digi-Touch Cool™ Single Door Refrigerator RR21A2F2X9R",
+        "price":19400,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/in/rr21a2f2x9r-hl/gallery/in-rr21a2f2x-one-door-rr21a2f2x9r-hl-thumb-380060181?$160_160_PNG$",
+        "i":"https://www.hitechcentury.com/wp-content/uploads/2020/06/image001.png",
+        "gif":"https://images.samsung.com/is/content/samsung/sg-feature-family-hub-rf56n9740sg-107289046"
+    },
+    {
+        "pid":3,
+        "pname":"SpaceMax™ Technology",
+        "pdescription":"RS72R5001M9 Side By Side with SpaceMax™ Technology 700L",
+        "price":85000,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/in/rs72r5001m9-tl/gallery/in-side-by-side-rs72r5001m9-rs72r5001m9-tl-thumb-441023617?$160_160_PNG$",
+        "i":"https://img.global.news.samsung.com/in/wp-content/uploads/2018/07/3.jpg",
+        "gif":"https://149367133.v2.pressablecdn.com/wp-content/uploads/2017/02/GadgetMatch-Samsung-FamilyHub2-4-2017-02-21.gif"
+    },
+    {
+        "pid":4,
+        "pname":"Curd Maestro™",
+        "pdescription":"407L Curd Maestro™ Double Door Refrigerator RT42B5C5EBS",
+        "price":55500,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/in/rt42b5c5ebs-hl/gallery/in-rt5000k-curd-maestro%E2%84%A2-426818-rt42b5c5ebs-hl-thumb-532827638?$160_160_PNG$",
+        "i":"https://i.pinimg.com/736x/76/62/b0/7662b0cd326d83b6574dba8a07a0d5f4.jpg",
+        "gif":"https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/MayART22/Applications-Header-Banner_70x800_DES.gif"
+    },
+    {
+        "pid":5,
+        "pname":"Twin Cooling Plus™",
+        "pdescription":"580L Twin Cooling Plus™ French Door Refrigerator RF57A5032S9",
+        "price":78890,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/in/rf57a5032s9-tl/gallery/in-ref-convertible-freezer-rf57a5032s9-tl-thumb-436322272?$160_160_PNG$",
+        "i":"https://img.global.news.samsung.com/in/wp-content/uploads/2020/10/big-bilion.jpg",
+        "gif":"https://img.us.news.samsung.com/us/wp-content/uploads/2021/01/12143831/Bespoke-Gif-2.gif"
+    },
+    {
+        "pid":6,
+        "pname":"Horizontal Curve Design",
+        "pdescription":"198L Horizontal Curve Design Single Door Refrigerator RR21T2H2XCR",
+        "price":35000,
+        "img":"https://images.samsung.com/is/image/samsung/in-one-door-rr21t2h2xcrhl-rr21t2h2xcr-hl-frontpurple-thumb-202206067?$160_160_PNG$",
+        "i":"https://i.pinimg.com/originals/48/99/86/489986c08f444b20cdd790ecb4ff8fc0.jpg",
+        "gif":"https://img.global.news.samsung.com/my/wp-content/uploads/2019/01/family-hub-2019_main_7.gif"
+       
+    }
+
+]
