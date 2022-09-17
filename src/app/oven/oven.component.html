@@ -1,17 +1,70 @@
 
-<div class="container" *ngFor="let m of micro">
-    <div class="row">
-      <div class="col col-3 col-sm-6 col-md-3" id="mobile">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://m.media-amazon.com/images/S/aplus-media/vc/a96cee2c-08cb-4dde-864c-9e6cbe04b964.__CR0,0,1464,600_PT0_SX1464_V1___.jpg" class="d-block w-100" alt="..." style="height:600px;">
+
+
+        
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.global.news.samsung.com/in/wp-content/uploads/2021/03/Baker-Series-microwaves-1024x512.jpg" class="d-block w-100" alt="..." style="height:600px;">
+        
+      </div>
+      <div class="carousel-item">
+                <img src="https://m.media-amazon.com/images/S/aplus-media/vc/e6ecc0c2-e972-44f0-bf0b-dca69cda8a1e.__CR0,0,970,300_PT0_SX970_V1___.jpg" class="d-block w-100" alt="..." style="height:600px;">
+
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.samsung.com/is/image/samsung/assets/sg/support/home-appliances-/what-are-the-information-codes-for-samsung-hotblast-microwave-oven/cta-for-samsung-hotblast.jpg?$ORIGIN_JPG$" class="d-block w-100" alt="..." style="height:600px; ">
+
+      </div>
+        
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- <div class="container1">
+    <img src="https://pbs.twimg.com/media/EbWQwUKX0AQ-Ap6.jpg" alt="Avatar" class="image" style="width:100%;">
+    <div class="middle">
+      <div class="text">John Doe</div>
+    </div>
+  </div> -->
+
+  <br>
+<div style="margin-left: 400px;">
+  <h1>Presenting the all new Fruit Dry feature</h1>
+  <p style="margin-left: 150px;">A quick and easy way to dry fresh fruits in your own kitchen.</p>
+</div>
+
+<div class="container" *ngFor="let m of micro" >
+    <div class="row" style="float: left; padding: 12px;">
+      <div class="col col-3 col-sm-6 col-md-3" id="mobile" >
         <div class="flip-card" style="float: left ;">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="https://media3.giphy.com/media/pyYCjZhZjs9I6lSZst/giphy.gif?cid=6c09b952x4dfl7akrgikzoo4fociez0u7k2z5gr05d4251uw&rid=giphy.gif&ct=s" alt="Avatar" style="width:300px;height:300px;">
+              <img [src]="m.img" alt="Avatar" style="width:300px;height:300px; padding: 40px;">
             </div>
             <div class="flip-card-back">
               
-              <h1>New Galaxy Watch5</h1> 
-              <p>Smartwatch for everyday wellness goals</p> 
-              <p>SAMSUNG</p>
+              <h2>{{m.pname | uppercase}}</h2> 
+              <p>{{m.pdescription}}</p> 
+              <h3>{{m.price | currency:'INR'}}</h3>
             
             </div>
           </div>
