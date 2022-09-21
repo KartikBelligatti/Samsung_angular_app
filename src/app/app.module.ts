@@ -18,6 +18,7 @@ import { FiltersComponent } from './filters/filters.component';
 import { AdsComponent } from './ads/ads.component';
 import { CountComponent } from './count/count.component';
 import { OvenComponent } from './oven/oven.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { OvenComponent } from './oven/oven.component';
     FiltersComponent,
     AdsComponent,
     CountComponent,
-    OvenComponent
+    OvenComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,

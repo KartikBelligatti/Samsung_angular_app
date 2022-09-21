@@ -9,6 +9,7 @@ import { RefrigeratorComponent } from './refrigerator/refrigerator.component';
 import { WashingComponent } from './washing/washing.component';
 import { WashingmachineComponent } from './washing/washingmachine/washingmachine.component';
 import { OvenComponent } from './oven/oven.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 const routes: Routes = [
 
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path: 'frdg',component:RefrigeratorComponent},
   {path: 'wd',component:WashingComponent},
   {path: 'wama',component:WashingmachineComponent},
-  {path: 'oven',component:OvenComponent}
+  {path: 'oven',component:OvenComponent},
+  {path:'con',component:ContactusComponent}
 ];
 
 @NgModule({

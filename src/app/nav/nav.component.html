@@ -38,14 +38,19 @@
           <li class="nav-item">
             <a class="nav-link" routerLink="oven" >Oven</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="con" >Contact Us</a>
+          </li>
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" #productname type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value); productname.value=''" >Search</button>
+          <button class="btn btn-outline-success" type="submit"  >Search</button>
+
+          <!-- <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value); productname.value=''" >Search</button> -->
 
         </form>
         
-        <app-search [product]="productentered"></app-search>
+        <!-- <app-search [product]="productentered"></app-search> -->
         <!-- <p id="ptag">{{name}}</p> -->
       </div>
     </div>

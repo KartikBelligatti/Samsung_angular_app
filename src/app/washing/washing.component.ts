@@ -38,7 +38,4 @@ export class WashingComponent implements OnInit {
     }
     return content;
   }
-
- 
-
 }
