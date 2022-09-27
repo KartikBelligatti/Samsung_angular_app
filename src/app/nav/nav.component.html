@@ -5,26 +5,29 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#" routerLink="">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" routerLink="mobiles">Mobiles</a>
+            <a class="nav-link" routerLink="reg" *ngIf="!auth" >Signup</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="" routerLink="tv" >Telivision</a>
+            <a class="nav-link" href="#" routerLink="mobiles" *ngIf="auth" >Mobiles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" routerLink="watch">Watch</a>
+            <a class="nav-link" href="" routerLink="tv" *ngIf="auth">Telivision</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="bar" >Soundbars</a>
+            <a class="nav-link" href="#" routerLink="watch" *ngIf="auth">Watch</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="frdg" >Refrigerator</a>
+            <a class="nav-link" routerLink="bar" *ngIf="auth">Soundbars</a>
           </li>
-          <li class="nav-item dropdown" >
+          <li class="nav-item">
+            <a class="nav-link" routerLink="frdg" *ngIf="auth">Refrigerator</a>
+          </li>
+          <li class="nav-item dropdown" *ngIf="auth">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
               Washers and Dryers
             </a>
@@ -36,23 +39,36 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="oven" >Oven</a>
+            <a class="nav-link" routerLink="oven" *ngIf="auth">Oven</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="con" >Contact Us</a>
+            <a class="nav-link" routerLink="con" *ngIf="auth">Contact Us</a>
           </li>
+          <li class="nav-item" >
+            <a class="nav-link" routerLink="pd" *ngIf="admin"  >Product details  &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Hello admin</b></a>
+          </li>
+         
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" #productname type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit"  >Search</button>
+          <!-- <input class="form-control me-2" #productname type="search" placeholder="Search" aria-label="Search">
+          <button  class="btn btn-outline-success" type="submit"  (click)="search_product(productname.value); productname.value='';hide_product();"  >Search</button>&nbsp; -->
+          <button routerLink='cart' style="height:5px;border:none;" *ngIf="auth">
+            <span class="fa fa-cart-plus" style="font-size:16px;color:black"><sup class="text-warning" style="font-size:10px;margin-left: 3px;;">{{cartCount}}</sup></span>
+          </button> &nbsp;&nbsp;&nbsp;
+          <a class="btn btn-outline-danger" type="submit" style="border-radius:10px;color:black;" routerLink="login"
+          *ngIf="auth">Logout</a>
+       
+         
 
           <!-- <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value); productname.value=''" >Search</button> -->
 
         </form>
         
-        <!-- <app-search [product]="productentered"></app-search> -->
+        
+        <app-search [product]="productentered"></app-search>
         <!-- <p id="ptag">{{name}}</p> -->
       </div>
     </div>
+    
   </nav>
-  
+ 

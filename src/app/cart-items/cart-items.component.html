@@ -1,0 +1,62 @@
+<div class="container" *ngIf="totalPrice(cart)>0">
+    <h1>Your bag total is {{totalPrice(cart)|currency:'INR':'symbol':'3.0'}}</h1>
+    <hr>
+    <div class="row">
+      <div class="col-sm">
+        <h3>Product Image</h3>
+      </div>
+      <div class="col-sm">
+        <h3>Product Name</h3>
+      </div>
+      <div class="col-sm">
+        <h3>Quantity</h3>
+      </div>
+      <div class="col-sm">
+        <h3>Price</h3>
+      </div>
+      <div class="col-sm">
+        <h3>Remove item</h3>
+      </div>
+    </div>
+    <hr>
+    <div class="container" *ngFor="let item of cart">
+      <div class="row">
+        <div class="col-sm">
+          <img src={{item.img}}>
+        </div>
+        <div class="col-sm">
+          <h3> {{item.pname}}</h3>
+        </div>
+        <div class="col-sm">
+          <h3> {{item.quantity}}</h3>
+        </div>
+        <div class="col-sm">
+          <h3> {{item.price}}</h3>
+        </div>
+        <div class="col-sm">
+          <div>{{item.totalPrice}}</div>
+          <button class="btn btn-danger m-3" (click)="delete(item)"><i class="fa-solid fa-trash"></i></button>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-7">
+        <a class="btn btn-dark m-3" (click)="onClick()" href="#">Shop More</a>
+        <a class="btn btn-dark m-3" href="pay" target="_blank">CheckOut</a>
+      </div>   
+      <div class="col-lg-5">
+        <div>
+          <h3>Total: {{totalPrice(cart)|currency:'INR'}}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container" *ngIf="totalPrice(cart)==0">
+<h1 style="margin-left:800px;margin-top:300px;">Oops! Your Cart is empty...</h1>
+<img style="width: 800px;height: 500px;margin-top:-300px;" src="https://hakimitr.com/assets/website/images/empty-cart.gif">
+  </div>

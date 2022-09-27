@@ -1,0 +1,154 @@
+{
+  "posts": [
+    {
+      "id": 6,
+      "pname": "Sony TV",
+      "pdescription": "Sony Bravia LED TV - 65 inch",
+      "price": 35000,
+      "img": "https://th.bing.com/th/id/OIP.z35a_DfUQDnaHz2Nh8y7OgHaHa?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 7,
+      "pname": "Samsung",
+      "pdescription": "Samsung - double door ",
+      "price": 100000,
+      "img": "https://th.bing.com/th/id/OIP.cEq4nA2i692-UiBSIbRf0QHaIq?w=176&h=206&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+    },
+    {
+      "id": 8,
+      "pname": "LG",
+      "pdescription": "LG - 500 litres",
+      "price": 18990,
+      "img": "https://th.bing.com/th/id/OIP.HS3xpE6Xi8jUqCL4n0labQHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+    },
+    {
+      "id": 9,
+      "pname": "Whirpool",
+      "pdescription": "Whirlpool - Single Door",
+      "price": 11990,
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS-jFitvGokxdqqClUXuZNSebA0vg2fnQxLUP31KC-UHfNPACHmiuH13qmJ_t2oJgVRU5nO4xaLZdcuw8UZk9-0jNR9Ay4EPy4TTms2bCQj&usqp=CAE"
+    },
+    {
+      "id": 10,
+      "pname": "Godrej",
+      "pdescription": "Godrej - Double Door",
+      "price": 21290,
+      "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTg01f1ZxiVCl5P-pvUiZFudHHGzqthqP03JaA3iC5p-YIjms0-88OSFqpNlbB9EloA3GJAJ_0FVGLWZDbZbaB4pXra30Z0ya675xlntrHKA03l8yMgdXljaQ&usqp=CAE"
+    },
+    {
+      "id": 11,
+      "pname": "Croma",
+      "pdescription": "Croma - Double Door Convertible",
+      "price": 25999,
+      "img": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1661170201/Croma%20Assets/Large%20Appliances/Refrigerator/Images/252133_uidwiu.png/mxw_2048,f_auto"
+    },
+    {
+      "id": 12,
+      "pname": "Bosch",
+      "pdescription": "Bosch - 32litres - Triple Door",
+      "price": 43490,
+      "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTg01f1ZxiVCl5P-pvUiZFudHHGzqthqP03JaA3iC5p-YIjms0-88OSFqpNlbB9EloA3GJAJ_0FVGLWZDbZbaB4pXra30Z0ya675xlntrHKA03l8yMgdXljaQ&usqp=CAE"
+    },
+    {
+      "id": 13,
+      "pname": "Samsung",
+      "pdescription": "Samsung - Top Loading",
+      "price": 10000,
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTfIENDuauv7ZFXGNRSQuVdIdyef-AJQ-tHSP4P5ahKNe7_eDc7WXcITgD0kXRnlbdHpBFSnKfeETvTuKUzMCURW_Ln2WvoUnPXoqw70I8&usqp=CAE"
+    },
+    {
+      "id": 14,
+      "pname": "LG",
+      "pdescription": "LG - Automatic",
+      "price": 18990,
+      "img": "https://mlvtgiqzoszz.i.optimole.com/Sb3K8mU-Band6g6L/w:auto/h:auto/q:90/https://www.appliancecity.co.uk/wp-content/uploads/2017/09/LG-fh495bdn8-washer-1.jpg"
+    },
+    {
+      "id": 15,
+      "pname": "Whirpool",
+      "pdescription": "Whirlpool - Front Loading",
+      "price": 21990,
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTIKMRFlDJFioKRat9eSA5eEIp7FvngMnBV-Z6HB1857eYB-bIGnI8B1nOwh_K_eukiSTi83Y4j-6CrGrg1E3_OFs3PR76xkQnM1YiDOfZE2LBrn1W-w-Ih&usqp=CAE"
+    },
+    {
+      "id": 16,
+      "pname": "Godrej",
+      "pdescription": "Godrej - Automatic",
+      "price": 21290,
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTsXF8Nc2C0VPC8AKnOLDPuMXRKMw-xsZb2_b3OPM8PIf-pedseIg-4uvYWVCfd3ncIZMFqX8ndao_DCpyIZMF9vdE60NnGjtecZcHJlfxWLd5LF6T5_yWlNA&usqp=CAE"
+    },
+    {
+      "id": 18,
+      "pname": "Bosch",
+      "pdescription": "Bosch - Front Loading",
+      "price": 43490,
+      "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRfWRzfm7pmLwjjQHmnoB9YCTphSxHni2F63bXqcHk8lgbEUDhtRmS6oa6vf0xHhqH3FkiTUphL59vGffHqF1wRdmPRrKqvx1q4K6pufCLu53zooFio9pNR&usqp=CAE"
+    },
+    {
+      "id": 20,
+      "pname": "kartik",
+      "pdescription": "fsfasf",
+      "price": "50",
+      "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAABqlBMVEX///8AAAD6vAEXOYD/wQD/wwD9vgDhIzv/xQD1ugC5ubkAK4faqyn/xwDrswDm5uYAMIQUNoHOzs719fX3+v8PDw/AwMDFnDQ6OjrU1NSMjIx+fn5ERERwcHCfn5/s7OxVVVWurq7jHDVfX19nZ2fq7vkAJYkAM4MAIXYAKXnLoC98irAnJydNTU3grgDd5PWvn4DoFzDLmwC3kSuQe1eNmrygh06st9SbqMzDzeW4wt11b2AvQ3oAEXGeqMQaGhqvjkOjgS6WkoKlgxa6nlyunHHP1eK+nk26tavAxtO6khO5rpuYhFihk3Gtp5zJp16sscCZgTzR3/zOqE/BjqPDbIe9U26odYabi4G/epLFscLALVGcMDdzRj+qXo2thki8Kj+XQ0aeU0mXZUumT3GjF1THphefL1HBAES1faDoACDWtQClP0q2FFGWYDrRI0iCZn6gdUepY0qrbzmRU0+IMFiYAFmGAF28hT6yZ0B+WFuSOlTNWjrOSTzRxrLKsXWCiJyDcZlhdJN0JGFjYXAyT5lecKk7QmZDXp5TV4KJcD5RTmdlUUl4Y0btO9NlAAASCUlEQVRogdWbiXvaSJbAiZBkZAs52AoYE3AwyE4kR8KIS+BxAwFsY+w2SXfv7Hhmc22O7aTH252Z2ew1Yb0YX/H/vFVPgLFUEqSnZ+eb933pxjbUr96rd1Wp8Nz6m4rn7xZ/Z21t4e7dhbW1O/+/+DsLicXp4Fx4dmne45lfmg3PBacXEws/ZxZfjI/GwkseoiyFY9G/Kv5eLEwmX0s4du+vg38Ymx3HNmU29vAXx0fmJmObMheZ0BEmwy86Ki5KDiZY/MXwznCPWK048CebwHj84ryzkcWcyj1qOP11fvwExuETrv4mxmt8zEl9bIHEX4Rfm3aDI9HqsqPyINNrPx8fdUgwpjS0udQWRfGpbW1HdHzXkmsqcsO7qS41Yo+a+i7PssJurfkoZWjOBvhZ+Htuqz7behLSgntSnaVDWrzqyYVqQec3OydCR3zUxeEb09Xtx/J+SqgJqkx9zT85kHcarYMdp/fPOy6AEz7morqnnXpSj1OUGqqVpx9XaiGVo1O7/K7u7IWxL8PHHQcKBqViS4rT1Fa8IXkOqtuLoqRN1wV6z1ONS41thzCMfwneyel2tqv1VKWV3lLVA+CE0+lt/H9xZ4ur8blKK9UKBolhQHZAIt6hvIgNfb/ZaJS1OCX31zk+rZXMV1rdl5L2th+Hdmtk/tykeAcfbtS36mI1tKXGnggHMB3RE6wit0cvEFCT+X2er4W0A50cBcHJ8E6WT6V21brAfX3A0ylk7W++/e67b/8hnf41fvHdP/5G2qGEeIqlavKn7RrRAwj2t+MdvE7abu0UVbYeq2o1fuebw/X19eXl9d/uaL/7Hr1YXv9+6p90+XE8tS+wcS23SwyC+Hj8ooPu8VqK59WYp/EoTT89XF+ewrL8LBJ7br6cmlp/4ePTB56dEMfXUnvEQWwl0IqPONA9saDB8zseqb6T8r8fEJdfpNWXUwM5VJ8UMzserUYdaFXyKBF3/IJTrpuryV+rO9I3/1w2YtyrPn75B72+//rNYC5v+Zq29/zb3xi8vCWTPWh+wRXvlOfFWjDmr/7L8vfrz5tCWsdEtOBvX9dFT/zde/QSz+VpWk3/fmr9+6N/5WpGhVyDZt3wzsmuOn2gHq5jFR8dSPvvfpw6+unF0Qt/CuF95aPnL58tP39X14wQNszykf7JSDoMFHfGO30ETbqe5nRs4aPKE8nT4NW3H/z+nw5fC6lt/t2Lw3d+/a3OomSw+/oZNsxPTLriVACSTvg15xJb3W3wH7DB3/JqUNrnQkcfaKY89eylyn88XH7up9Ev/Cmt8QS55fLU8ns1uJNzaEFm1xzwLlVuez+v/rQ8dXg49cGvbgnlw6mnnKo+fxX68EJ98ybECaG3Ry+5EO8PHR39gOJRjW/uOXVAMTI+4Uz3THOC/w/LL969e3/0/Hd8jn/xo/DHP2U4f/vVqwu/v/xvf1LLz+WyXnnx9lB/9+PyoUBRnxwbsAQR77Z/20sd1PnDjwzDH77VPx69VP3lsswLrICEpVRZb9NM5u2/q2/elv3s6x9C8kGs7Ngohkl4x4SDRMpInsfq+99yvMzzwn98CAmsz++nOUHFInD4B1b++Ade5XmZe/lMRVEfdVYnQsC7tXZiNewx0j8g7d5kKI7zIX3LrUymdHWRybQyV6WrTE7nBYah6PJ/vpK3ftB3RbHkPOCsHe+mPCqW7ZQufxRyT1XaR+ulUqssy1XZx4T+678/Cj65qvKhdiaZU30+9WOJ+6irezW3di1ixd8Zs3vWdozdfdXvp7ZKiS0+k8updTFOP312NHX0e2TqspDLZWQ+k8ih9/iruzs7jn0nqH/HgndXvj+Fmpor6Rz9dGZlpsQKdVlQ+a2nsiroexzdXl1ZKXFMOpPhx2x8RtUf4MceW2CRovKT7ZCayXyu8J92/zxn7DSQGDtzf979JMufrzKyPP2ELxnjRwrfxLvF/LWIdWZfqlPqp+2wYeSzncVIdS/z60in0ykUjfD21ypV91SpkPOG51oSN/DjtpJ9+Z8/cuVWUDIKxxk9LXA0A0Kzgqq3IkpRm6u3uQ//67LlHcr0KN6xzFtEqqLNXKH7SPAzLMtS18KyjJ9tlrLG493WBLYfFn4T79Rh2fnFTk5lafYaOzILmhb0Tn4S03sGfZdncsdDYnQqAmPyWJpBWQ+EYxl68Eu2Gck777ZHJDyCnwyuKU85uq8np1Yy0c6xks0qnU601Eb535wCSr7HE5n/Gj9J0Hs8hZLAgIo+Sv/cKRjStZaSkVe6FcFvToBuKxMYIDLEO2/Nr0XqpcHsLJsuKUXSOzSlq1MwQUbojjdAcIAfl3CxGFGBBrgc3XQMLCl/rMPysFSrMG5ESLwYf3c8PZ8BD6fVSME9qvOdJvgAo2fHLcDdPn780hcqoBNdVsamFGmzBAZgmuMcINLHj136rM70V1Q86bm/9eTEwF4Cljp25wf7+HFRn9V9aDifrkiFU1XvuQwqnTW5Uk8s5PBSjeOHTfy4jJtvY2PSekFSLjiWrjjrL/YqDEvrZ5qRoTA/rbiNi/Muwj90pxsZoLcL0jlYgamcOdLNN6gbRqOE+UzT1f8fAj7qSpe6MFA7L3l5CGrEd7D/mW6+geW6RS2BZ+LPuMV/FPCuZ2ieHmqkKV8lrwXAofE/37X+oiQNk99JiMHRASGSyGslyM9Rl1CJAd55X4mk0ESj0M2sdi5AOG9x2BbY/0Sj0Du/7Ha7l+e9rCFKvRB6JyuEgM99Lhot/LN67Dx2HPBurYYW9eHBelKPB91zKyVw6kove15CvTWHfom6/dDV+VkZdL88K5v8S21TxzMvExM0yDTg3cJeUbHOSeRUEMqtFe/MFSQVXed8w7LP0n4KT4+l7hU9PTwPZIYTScEGY7uO0RcEvEvYGzk0FFMu5i8g7+RmvF7vTMYHZY26KXgqXDKPPmROldEVLelHv087en8Y8C4Fp4Pmz6qKuAHeX8Z0r3clQw9aHZ/Px6B/g5/lE3D0E1go31Wx2MRum3BSHxUdj1u9M3DCoTNaL42tyHsDmL56yvdbG/VJJnl5fpzM6P1VYNVLrL64AVYXzqVjyk39cXgFlN9sJPw4hk9XgX6uDpTVV4oaCrzGieltpsdhfhGCjq4UDOx9TMfpYZs7XrpCi+graT3sf3R5xdQd6j4svU/H+Vc8C2FnYHn4L3OJPV3RYUKnYpfD03Rw/jH4AsKyQtbAs2AF0N27gafC0q0ypFcU/yJkG8p3cQIhifRHWyzpnIMykQX1hY4L3tn1Oni4Ngp57Hel2+B2MsRXaWam795nPdmkK578pQB17gy5WqEN0bchRXDoZBwP2TyOx+ceCUcbfawlTb8D00PQMUk0lZmQWQe3YBoXuLYZiM9yV1m8IpAkmbaxibyW5cnON+eadvL4k2ohjzsdJgPKe2HQDA7AgBfUpk0nM4twMcFwCRMF/RGr9jScORysH3TN+QrUWQ1qDreBg24mh5SnZfBBb2CV74cAWoL+R7IXp303k04hWs61CJ5GiRj6cTe8GMGG7oqX+PP6KsIHsN+x5kxG+L7ydQPQG27tIVyYC2MTB2+ZuPgm3mGDp7UY8PsLiL6Gct97uwQ1xMx9mB/AfCZ0QorrIk5ZrJw1UOZj03kSYRHwDnt7Q8efK2ZxxuPORVG5v4q9jbsMeIf8DZ6mQ4EAqacSL6HwHGs5GmtBIiQA79DmFxGX1g289CyPAWdeeDlU3kxCfCDgfUAaHXyf62olvIbEqn8X8Gvk878sWjxfS8MJBLWZHtx24QLSGsV7VzfAE35F4CsypAvtGLtrlwBYWjMbbXLgdwT49ClUHexRWgl7QXfVS5D7dn6+AhnHUHAuKhEAc/0+n+z6gI9Il5iZwM5VzKCX3GmAhCfwizhFoRY1i9ozOkMAxPt48jF+BFeLiPYZ4y8xPt/GobBBxtvXv4GNxej5rOCAT/bxC2TtMb4DeP85ThsFK35mKPh39zdvfl6LMuA1BYxvEQALg/09seiM4jcwvojLCLcxXPtAOTSQDa/d/7SkO352eLxAXHxsfNo0vv8U4w289tR578EAz9OsebTmN01y0/6gvYvx40M8cfFHXQ/WHtRhoo0BP4AKsSCDbBD8z1z7dl7hyJ6fdD9awrPGgYej9zPO2SJOAWi8+bPVAZ6Vb68GkJD8r5gzA+8YRy5hIzdyskWqubhSMzkz7bShg8VVhOV7HvHkwRBvyQIj/lfAKZpONrp4o9KxDR8cwZOsj7tkNmTgjQbbhKyOI49iExrayj4Y4K1heO1/UPJQ0kUew3L2qpAcwX9F8P0G6l9ZfrOg45IB7YSGsy4bUvAxwmofP3Mby2j8D/Q/5WCL10B9B2parKPPfjV6pEzY5UpVZDWuo0G724WCreCuj8avpbMHpuuVQTbsfOMK+oQC9Ez2Xjd240T7rv2EQ+ww0Kdcmi07DImdmVVP0MuljQDGszQW37ADufY/aFB9VwZOH3TL2hHM372BJzlfVsBp4zEeB+1YoF0yO35o7+e9D/AffFj6ce+dOYVl+BXSX9qA86Bzc5tvOzsbXKQY4O/Z8XjVKE4xLnBLk4N+RYNB/W3Ml87Q2qtXVxkk/SRcYtorfT5sNNjXitHES2+rR/cseELVFSFpR6VLztywgUXMY6ZyTwJP6LueGX23Sxzb3w4ElEvYhl81IOfp1iOW4S2WIZ7QcuF8xTaLWRzAjG720ub5DdM8z5v4YeDdDrTxmS+TxHMJ3IftiHCGww6lbmujm7DhCerDDok61rqg8WfwXvG8Ce09d9E7ucYHbt9OwsET2mNh/O2WufkobmL/sNn++grPNZ5QdjGXKRvQNrGMF5po6azph/ZaKKum8WdWVjYyqg/OfLkNbPyZJOwwhQ0R75CYnPXB2gIBT6h7m9DldkwvZrlTGEbsteFUBT8+YFXkd7mQap6zsIwM5TiQgB/pKyMLmc+a8uK3SPgFW8spleAYqQg7JkY+70evklQHxzpm3Js/0FzODHzcf+NtYU/CeYKuWBxvaYGIJ5xsZ3HuYKPSicrS6vVuoti7GDzSGR7toIb/dNAEr2I+d6nB2RJtbbJHL8/cuLthyz1SFKuRVrRLH+8dcV8xv3GlDibAoqbDx+UuZ66rH+L7LwoG9LpW5W9c3bqBtx8u5+FsrlLMPzyzBI/Rg5MGjuKEdKh1afZ7Qwl4Kz1oT9A+5+bnbt7cuXlxxtYViAo+xfSVNMJDDIj7k16vp5w8sDX/q17xGA6YSpYP3rw3abk2ZDvhhL0FUoGwiwS84sF35QLWsh/wagr2P3N/NCKWW2vWO1u2M8aCDlWO8GSgj8fSeBCw0BvZJpwvWIIufMsdb48+JU2Tn0yM4D2NG/o/8DYKZnK2WG1pYQz+1j0rxVxDWj238pW0IDQH2o3y7/ckBVIzk7AcK9gu7NqvC9rcT4pycGLWteTOTeR1vWFr2fAOWo5AVurIkHWtDxPs13UJlyVt2afRpYFfspxRiHBHc/iu+2avc9bQuqp5+m55v/WyHhlvP23REhQUnUeuj/EaqwHv6v1NsXAFCYnJWZyedFufeFHWzu/CUSojlAouz8Ya9+8rknEMT/FQ42HRnfhdAfI1YZv9peO0eWQrR10ezzcaxnEFHvfQQtKy7gTLO+Lt+w4x2y+zlBzNauQZSMVOmzOfoTetp9hJMsfpinjClv6LJVgAimbTmeO8ZJmBKBWViM6ZD/ipnOX58bzTlyQcL8h/Zct/klKBx2T4/kD6oqsUiho+zpc0zSgonSu9f3uAZdLnFsOHv3KiuHw7wb7zMY51cwKIwVBCs3JxUSpdXLSbKkcz/T/Q6ah1R+V0O94dfytpWwCxGK1wzI1OZ6Tdwb9pRq21cd5h2cfib63Z9z5isdNKc/TNVqfPptRyx3a1Iej61ZQx38uJEI4ctc0ungHNjgiygNpOZg1rSCyR421SvMO5j5ZHvtZuplVVEFQ1jZwgelwgPC2Ojxt9/JeiFqbJz/cl5PCFLJZCsUFKxvPT1vL6c/Bo9x2f8ErXDXj87gRDT/aFuC+ewHxsEvjkXwdccPlWnE1mF8eb/cvwSO5O9m3I2QkV/1I8nsHinOu3xJbmFr+A/cV4JGv3YtPhJZsrzC+Fp2P33L/99kvgzTk8jEYXY9PB8OxsODgdW4xGH34x+S/A/2LyfwEw3ROMIjISAAAAAElFTkSuQmCC"
+    }
+  ],
+  "users": [
+    {
+      "username": "john@gmail.com",
+      "useremail": "pallavikatari@gmail.com",
+      "password": "John@123",
+      "mobile": "",
+      "id": 1
+    },
+    {
+      "username": "Admin",
+      "useremail": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "9898989898",
+      "id": 3
+    },
+    {
+      "username": "Jancy",
+      "useremail": "jancy@gmail.com",
+      "password": "jancy123",
+      "mobile": "",
+      "id": 4
+    },
+    {
+      "username": "kartik",
+      "useremail": "kartik@gmail.com",
+      "password": "kartik",
+      "mobile": "8861107130",
+      "id": 13
+    },
+    {
+      "username": "shashi",
+      "useremail": "shashi@gmail.com",
+      "password": "123456",
+      "mobile": "9638527410",
+      "id": 14
+    },
+    {
+      "username": "s",
+      "useremail": "",
+      "password": "",
+      "mobile": "",
+      "id": 15
+    },
+    {
+      "username": "guru",
+      "useremail": "guru@gmail.com",
+      "password": "guru123",
+      "mobile": "7412589630",
+      "id": 16
+    },
+    {
+      "username": "poornima",
+      "useremail": "poornima@gmail.com",
+      "password": "poornima",
+      "mobile": "87986565",
+      "id": 17
+    }
+  ],
+  "cart": []
+}
